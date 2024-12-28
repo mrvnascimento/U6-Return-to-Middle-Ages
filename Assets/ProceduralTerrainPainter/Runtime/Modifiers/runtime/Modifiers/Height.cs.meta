@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: d9ac48eb720706f4ebf1dc79d903dd74
+timeCreated: 1612254374
+AssetOrigin:
+  serializedVersion: 1
+  productId: 188357
+  packageName: Procedural Terrain Painter
+  packageVersion: 1.0.5
+  assetPath: Assets/ProceduralTerrainPainter/Runtime/Modifiers/Height.cs
+  uploadId: 712355

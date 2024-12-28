@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 8b49e9385a31773439326ca41da45366
+timeCreated: 1612253358
+AssetOrigin:
+  serializedVersion: 1
+  productId: 188357
+  packageName: Procedural Terrain Painter
+  packageVersion: 1.0.5
+  assetPath: Assets/ProceduralTerrainPainter/Runtime/LayerSettings.cs
+  uploadId: 712355

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 1b4a4b4fb8afe0748a7f43dc62299016
+timeCreated: 1612276425
+AssetOrigin:
+  serializedVersion: 1
+  productId: 188357
+  packageName: Procedural Terrain Painter
+  packageVersion: 1.0.5
+  assetPath: Assets/ProceduralTerrainPainter/Runtime/Modifiers/TextureMask.cs
+  uploadId: 712355

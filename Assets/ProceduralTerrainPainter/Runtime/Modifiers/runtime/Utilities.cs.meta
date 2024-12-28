@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 35d6790512595734f8105977e2ff3ab8
+timeCreated: 1612554665
+AssetOrigin:
+  serializedVersion: 1
+  productId: 188357
+  packageName: Procedural Terrain Painter
+  packageVersion: 1.0.5
+  assetPath: Assets/ProceduralTerrainPainter/Runtime/Utilities.cs
+  uploadId: 712355

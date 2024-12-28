@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6457187a5a237e648921dbac153823f9
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 188357
+  packageName: Procedural Terrain Painter
+  packageVersion: 1.0.5
+  assetPath: Assets/ProceduralTerrainPainter/Runtime/sc.terrain.painter.runtime.asmdef
+  uploadId: 712355

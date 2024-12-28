@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 056f8af885e4f31489f1f24b00863565
+timeCreated: 1612450128
+AssetOrigin:
+  serializedVersion: 1
+  productId: 188357
+  packageName: Procedural Terrain Painter
+  packageVersion: 1.0.5
+  assetPath: Assets/ProceduralTerrainPainter/Runtime/Modifiers/Curvature.cs
+  uploadId: 712355
