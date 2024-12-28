@@ -9,7 +9,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{CDD4E5CD-4BA7-3460-EC57-E2CA388B83A1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -61,23 +62,23 @@
     <Analyzer Include="D:\mycodes\Unity\6000.0.32f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Editor\IncrementalSplatmapping.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Editor\IncrementalSplatmapping.cs" />
     <Compile Include="Assets\Code\Editor\ReadMe.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Editor\PlaceOnTerrain.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Editor\PlaceOnTerrain.cs" />
     <Compile Include="Assets\Code\Editor\BuildTool.cs" />
     <Compile Include="Assets\Features\GrassOcclusion\Editor\GrassOcclusionEditor.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Editor\SplatMapGenerator.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Editor\SplatMapGenerator.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\2DTools\Editor\TTTools2D.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\2DTools\Editor\TTTools2D.cs" />
     <Compile Include="Assets\KinematicCharacterController\Core\Editor\KinematicCharacterMotorEditor.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Editor\ClearWaterLevel.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Editor\ClearWaterLevel.cs" />
     <Compile Include="Assets\Code\Editor\MultiSceneControllerEd.cs" />
     <Compile Include="Assets\KinematicCharacterController\Examples\Scripts\Editor\PauseStateHandler.cs" />
     <Compile Include="Assets\Code\Editor\UIControllerEd.cs" />
     <Compile Include="Assets\Code\Editor\MiscTools_Forest.cs" />
     <Compile Include="Assets\KinematicCharacterController\Core\Editor\ReadOnlyPropertyDrawer.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Editor\TerrainTools.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Editor\RandomObjectMap.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Editor\TerrainTools.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Editor\RandomObjectMap.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1270,10 +1271,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{D82C20D6-3DC1-EB57-F24E-7BF90E880C22}</Project>
-      <Name>Assembly-CSharp</Name>
-    </ProjectReference>
     <ProjectReference Include="AxelF.csproj">
       <Project>{0B15F148-2879-D29D-96CB-9AF690265380}</Project>
       <Name>AxelF</Name>
