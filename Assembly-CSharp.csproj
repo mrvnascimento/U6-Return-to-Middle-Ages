@@ -9,7 +9,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{1E54B37B-2617-ECC4-0891-CC85DA81956E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -81,7 +82,7 @@
     <Compile Include="Assets\KinematicCharacterController\ExampleCharacter\Scripts\ExampleCharacterController.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\c- Wall Jumping\MyCharacterController.cs" />
     <Compile Include="Assets\Samples\Character Controller\1.2.4\Standard Characters\FirstPerson\Scripts\FirstPersonCharacterViewAuthoring.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Example Data\Scripts\PlayerHoverController.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Example Data\Scripts\PlayerHoverController.cs" />
     <Compile Include="Assets\KinematicCharacterController\Examples\Scripts\ExampleAIController.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\10- Multiple movement states setup\Scripts\MyPlayer.cs" />
     <Compile Include="Assets\Samples\Character Controller\1.2.4\Standard Characters\ThirdPerson\Scripts\OrbitCamera\OrbitCameraAuthoring.cs" />
@@ -99,15 +100,15 @@
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\a- Simple Jumping\MyCharacterController.cs" />
     <Compile Include="Assets\KinematicCharacterController\Core\ReadOnlyAttribute.cs" />
     <Compile Include="Assets\Features\GrassOcclusion\GrassOcclusion.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\2DTools\Scripts\CircleMoverSample.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Scripts\TreeExplosion.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\2DTools\Scripts\CircleMoverSample.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Scripts\TreeExplosion.cs" />
     <Compile Include="Assets\Samples\Character Controller\1.2.4\Standard Characters\ThirdPerson\Scripts\OrbitCamera\OrbitCameraSystems.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\7- Orienting towards arbitrary up direction\Scripts\MyPlayer.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\10- Multiple movement states setup\Scripts\MyCharacterController.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\9- Custom collision filtering\Scripts\MyPlayer.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Scripts\TerrainQualitySettings.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Scripts\TerrainQualitySettings.cs" />
     <Compile Include="Assets\Features\VegetationTools\DummyScriptableObject.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Example Data\Scripts\SimpleSmoothMouseLook.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Example Data\Scripts\SimpleSmoothMouseLook.cs" />
     <Compile Include="Assets\Samples\Character Controller\1.2.4\Standard Characters\FirstPerson\Scripts\FirstPersonCharacterAspect.cs" />
     <Compile Include="Assets\Features\GrassOcclusion\GrassOcclusionData.cs" />
     <Compile Include="Assets\Samples\Character Controller\1.2.4\Standard Characters\ThirdPerson\Scripts\ThirdPersonPlayerSystems.cs" />
@@ -118,10 +119,10 @@
     <Compile Include="Assets\Samples\Character Controller\1.2.4\Standard Characters\FirstPerson\Scripts\FirstPersonPlayer.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\14- Climbing Ladders\Scripts\MyLadder.cs" />
     <Compile Include="Assets\Features\LightmapOcclusion\LightmapOcclusion.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Scripts\KeepOnSurface.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Scripts\KeepOnSurface.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scripts\MyCharacterController.cs" />
     <Compile Include="Assets\NewEmptyCSharpScript.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Scripts\SpawnInArea.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Scripts\SpawnInArea.cs" />
     <Compile Include="Assets\KinematicCharacterController\Examples\Scripts\ExampleMovingPlatform.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\9- Custom collision filtering\Scripts\MyCharacterController.cs" />
     <Compile Include="Assets\Code\DebugControls.cs" />
@@ -130,7 +131,7 @@
     <Compile Include="Assets\KinematicCharacterController\ExampleCharacter\Scripts\ExampleCharacterCamera.cs" />
     <Compile Include="Assets\Samples\Character Controller\1.2.4\Standard Characters\ThirdPerson\Scripts\OrbitCamera\OrbitCamera.cs" />
     <Compile Include="Assets\Samples\Character Controller\1.2.4\Standard Characters\ThirdPerson\Scripts\OrbitCamera\CameraTargetAuthoring.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Scripts\ForceGrassDistanceInEditor.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Scripts\ForceGrassDistanceInEditor.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\8- Creating a moving platform\Scripts\MyMovingPlatform.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\12- NoClip state\Scripts\MyCharacterController.cs" />
     <Compile Include="Assets\Samples\Character Controller\1.2.4\Standard Characters\ThirdPerson\Scripts\ThirdPersonCharacterAuthoring.cs" />
@@ -167,7 +168,7 @@
     <Compile Include="Assets\KinematicCharacterController\Core\KCCSettings.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\8- Creating a moving platform\Scripts\MyPlayer.cs" />
     <Compile Include="Assets\Samples\Character Controller\1.2.4\Standard Characters\ThirdPerson\Scripts\ThirdPersonCharacterAspect.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\Scripts\PlaceOnSurfaceAtStart.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Scripts\PlaceOnSurfaceAtStart.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\15- Root motion example\Scripts\MyPlayer.cs" />
     <Compile Include="Assets\Code\MiniProfiler.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\12- NoClip state\Scripts\MyPlayer.cs" />
@@ -175,7 +176,7 @@
     <Compile Include="Assets\Features\GrassOcclusion\MatchBounds.cs" />
     <Compile Include="Assets\KinematicCharacterController\Core\PhysicsMover.cs" />
     <Compile Include="Assets\KinematicCharacterController\Examples\Scripts\PrefabLauncher.cs" />
-    <Compile Include="Assets\Tom&apos;s Terrain Tools\2DTools\Scripts\Camera2DFollow.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\2DTools\Scripts\Camera2DFollow.cs" />
     <Compile Include="Assets\Samples\Character Controller\1.2.4\Standard Characters\FirstPerson\Scripts\FirstPersonCharacterSystems.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\1- Player Camera Character Setup\Scripts\MyPlayer.cs" />
     <Compile Include="Assets\KinematicCharacterController\Core\IMoverController.cs" />
@@ -187,9 +188,25 @@
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\11- Charging state\Scripts\MyCharacterController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Cliffs.terrainlayer" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Cliffs.terrainlayer.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Dirt 1.terrainlayer" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Dirt 1.terrainlayer.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Dirt.terrainlayer" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Dirt.terrainlayer.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Grass.terrainlayer" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Grass.terrainlayer.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Gravel.terrainlayer" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Gravel.terrainlayer.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Puddles.terrainlayer" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Puddles.terrainlayer.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Sand.terrainlayer" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Sand.terrainlayer.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Snow.terrainlayer" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Snow.terrainlayer.meta" />
     <None Include="Assets\Shaders\BotD\BotD_Wind_ShaderGraph.cginc" />
     <None Include="Assets\Art\UnityHDRI\Seaside\Info.txt" />
-    <None Include="Assets\Tom&apos;s Terrain Tools\Example Data\Terragen Sources\README.txt" />
+    <None Include="Assets\Tom's Terrain Tools\Example Data\Terragen Sources\README.txt" />
     <None Include="Assets\Rowlan\Terrain\Stamps\Examples\MicroVerse\ReadMe.txt" />
     <None Include="Assets\ProceduralTerrainPainter\Shaders\Filters.hlsl" />
     <None Include="Assets\Features\GrassOcclusion\GrassOcclusion.shader" />
@@ -1783,6 +1800,7 @@
       <Name>Hapki.Interpolation</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
