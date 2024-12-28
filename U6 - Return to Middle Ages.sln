@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{1E54B37B-2617-ECC4-0891-CC85DA81956E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.terrain.painter.runtime", "sc.terrain.painter.runtime.csproj", "{43CC596C-BF2E-4AB0-05C6-F11B8A07CF3E}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerrainFoley", "TerrainFoley.csproj", "{F6DD1A8E-FEE5-0088-D48F-DDA011C571FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyMaster", "PropertyMaster.csproj", "{7035EF45-FA1A-5369-8096-342CA9BDCA23}"
@@ -20,8 +22,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxelF.Editor", "AxelF.Editor.csproj", "{D83F49FF-D449-7061-6077-5E6D5E306439}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hapki", "Hapki.csproj", "{F7C44BFF-EAE2-B281-CB0E-F7047D82A681}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.terrain.painter.runtime", "sc.terrain.painter.runtime.csproj", "{43CC596C-BF2E-4AB0-05C6-F11B8A07CF3E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthOfFieldAutoFocus", "DepthOfFieldAutoFocus.csproj", "{CA84DD4E-E596-5198-CF7F-1D08BB4DD36F}"
 EndProject
@@ -67,6 +67,10 @@ Global
 		{1E54B37B-2617-ECC4-0891-CC85DA81956E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E54B37B-2617-ECC4-0891-CC85DA81956E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E54B37B-2617-ECC4-0891-CC85DA81956E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43CC596C-BF2E-4AB0-05C6-F11B8A07CF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43CC596C-BF2E-4AB0-05C6-F11B8A07CF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43CC596C-BF2E-4AB0-05C6-F11B8A07CF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43CC596C-BF2E-4AB0-05C6-F11B8A07CF3E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F6DD1A8E-FEE5-0088-D48F-DDA011C571FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F6DD1A8E-FEE5-0088-D48F-DDA011C571FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6DD1A8E-FEE5-0088-D48F-DDA011C571FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -99,10 +103,6 @@ Global
 		{F7C44BFF-EAE2-B281-CB0E-F7047D82A681}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7C44BFF-EAE2-B281-CB0E-F7047D82A681}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7C44BFF-EAE2-B281-CB0E-F7047D82A681}.Release|Any CPU.Build.0 = Release|Any CPU
-		{43CC596C-BF2E-4AB0-05C6-F11B8A07CF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43CC596C-BF2E-4AB0-05C6-F11B8A07CF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43CC596C-BF2E-4AB0-05C6-F11B8A07CF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43CC596C-BF2E-4AB0-05C6-F11B8A07CF3E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CA84DD4E-E596-5198-CF7F-1D08BB4DD36F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CA84DD4E-E596-5198-CF7F-1D08BB4DD36F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA84DD4E-E596-5198-CF7F-1D08BB4DD36F}.Release|Any CPU.ActiveCfg = Release|Any CPU

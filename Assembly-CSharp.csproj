@@ -76,6 +76,36 @@
     <Analyzer Include="C:\Users\mrvna\U6 - Return to Middle Ages\Library\PackageCache\com.unity.netcode\Runtime\SourceGenerators\NetCodeSourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ProceduralTerrainPainter\Editor\HeatmapPreview.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Editor\ModifierEditor.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Editor\PropertyDrawers.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Editor\TerrainPainterInspector.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Attributes.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\LayerSettings.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\ModifierStack.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\Curvature.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\Direction.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\Height.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\Modifier.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\Noise.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Attributes.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\LayerSettings.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\ModifierStack.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\Curvature.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\Direction.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\Height.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\Modifier.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\Noise.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\Slope.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\TextureMask.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\TerrainChangeListener.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\TerrainPainter.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Utilities.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\Slope.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\TextureMask.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\TerrainChangeListener.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\TerrainPainter.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Utilities.cs" />
     <Compile Include="Assets\Samples\Character Controller\1.2.4\Standard Characters\ThirdPerson\Scripts\ThirdPersonPlayerAuthoring.cs" />
     <Compile Include="Assets\Code\MultiSceneController.cs" />
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\14- Climbing Ladders\Scripts\MyCharacterController.cs" />
@@ -188,6 +218,54 @@
     <Compile Include="Assets\KinematicCharacterController\Walkthrough\11- Charging state\Scripts\MyCharacterController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\OutdoorsScene\FirstPersonTerrainTestCharacter.unity" />
+    <None Include="Assets\OutdoorsScene\FirstPersonTerrainTestCharacter.unity.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Editor\Heatmap.shader" />
+    <None Include="Assets\ProceduralTerrainPainter\Editor\Heatmap.shader.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Editor\HeatmapPreview.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Editor\ModifierEditor.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Editor\PropertyDrawers.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Editor\sc.terrain.painter.editor.asmdef" />
+    <None Include="Assets\ProceduralTerrainPainter\Editor\sc.terrain.painter.editor.asmdef.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Editor\TerrainPainterInspector.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Attributes.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\LayerSettings.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\ModifierStack.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\Curvature.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\Direction.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\Height.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\Modifier.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\Noise.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Attributes.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\LayerSettings.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\ModifierStack.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\Curvature.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\Direction.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\Height.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\Modifier.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\Noise.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\Slope.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\TextureMask.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\sc.terrain.painter.runtime.asmdef" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\sc.terrain.painter.runtime.asmdef.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\TerrainChangeListener.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\TerrainPainter.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Utilities.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\Slope.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\TextureMask.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\sc.terrain.painter.runtime.asmdef" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\sc.terrain.painter.runtime.asmdef.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\TerrainChangeListener.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\TerrainPainter.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Utilities.cs.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\DemoScene.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\DemoScene.unity" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\DemoScene.unity.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\DemoSceneSettings.lighting" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\DemoSceneSettings.lighting.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers.meta" />
     <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Cliffs.terrainlayer" />
     <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Cliffs.terrainlayer.meta" />
     <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Dirt 1.terrainlayer" />
@@ -204,6 +282,31 @@
     <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Sand.terrainlayer.meta" />
     <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Snow.terrainlayer" />
     <None Include="Assets\ProceduralTerrainPainter\_Demo\Layers\Snow.terrainlayer.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\PTP_TerrainMat.mat" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\PTP_TerrainMat.mat.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\TerrainData.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\TerrainData\TerrainChunk_0.asset" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\TerrainData\TerrainChunk_0.asset.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\TerrainData\TerrainChunk_1.asset" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\TerrainData\TerrainChunk_1.asset.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\TerrainData\TerrainChunk_2.asset" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\TerrainData\TerrainChunk_2.asset.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\TerrainData\TerrainChunk_3.asset" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\TerrainData\TerrainChunk_3.asset.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Textures.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Gravel_020_Albedo.png.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Gravel_020_Normals.png.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Ground_008_Albedo.png.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Ground_008_Normals.png.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Ground_037_Albedo.png.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Ground_037_Normals.png.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Rock_003_Albedo.png.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Rock_003_Normals.png.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Sand_034_Albedo.png.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Sand_034_Normals.png.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Snow_006_Albedo.png.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Snow_006_Normals.png.meta" />
+    <None Include="Assets\ProceduralTerrainPainter\_Demo\Textures\_LICENSE.txt.meta" />
     <None Include="Assets\Shaders\BotD\BotD_Wind_ShaderGraph.cginc" />
     <None Include="Assets\Art\UnityHDRI\Seaside\Info.txt" />
     <None Include="Assets\Tom's Terrain Tools\Example Data\Terragen Sources\README.txt" />
@@ -1799,6 +1902,20 @@
       <Project>{BFDDA270-20E0-B2C0-ADE5-37675B5FB937}</Project>
       <Name>Hapki.Interpolation</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Gravel_020_Albedo.png" />
+    <Content Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Gravel_020_Normals.png" />
+    <Content Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Ground_008_Albedo.png" />
+    <Content Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Ground_008_Normals.png" />
+    <Content Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Ground_037_Albedo.png" />
+    <Content Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Ground_037_Normals.png" />
+    <Content Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Rock_003_Albedo.png" />
+    <Content Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Rock_003_Normals.png" />
+    <Content Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Sand_034_Albedo.png" />
+    <Content Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Sand_034_Normals.png" />
+    <Content Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Snow_006_Albedo.png" />
+    <Content Include="Assets\ProceduralTerrainPainter\_Demo\Textures\Snow_006_Normals.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

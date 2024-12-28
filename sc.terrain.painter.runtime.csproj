@@ -62,22 +62,22 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.30f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Utilities.cs" />
-    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\Height.cs" />
-    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\ModifierStack.cs" />
-    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\Noise.cs" />
-    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\TextureMask.cs" />
-    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Attributes.cs" />
-    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\LayerSettings.cs" />
-    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\Curvature.cs" />
-    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\Slope.cs" />
-    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\Modifier.cs" />
-    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\Direction.cs" />
-    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\TerrainPainter.cs" />
-    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\TerrainChangeListener.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\TerrainPainter.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\TerrainChangeListener.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\Noise.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Utilities.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\Modifier.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\Slope.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\Height.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\LayerSettings.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Attributes.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\Curvature.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\Direction.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\Modifiers\TextureMask.cs" />
+    <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\ModifierStack.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\ProceduralTerrainPainter\Runtime\sc.terrain.painter.runtime.asmdef" />
+    <None Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\runtime\sc.terrain.painter.runtime.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
