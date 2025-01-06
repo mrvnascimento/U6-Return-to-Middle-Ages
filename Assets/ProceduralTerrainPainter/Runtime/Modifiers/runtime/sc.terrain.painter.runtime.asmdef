@@ -1,5 +1,5 @@
 {
-    "name": "sc.terrain.painter.runtime",
+    "name": "sc.terrain.painter.runtime1",
     "references": [
         "GUID:4bdfb2239705740718731d0b4d54061d",
         "GUID:fb58d5396d4f85044a40c7548929c37d",

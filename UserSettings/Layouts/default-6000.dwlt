@@ -8,7 +8,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -129,7 +129,7 @@ MonoBehaviour:
   - {fileID: 13}
   - {fileID: 12}
   m_Selected: 1
-  m_LastSelected: 2
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -365,7 +365,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/terrain
+    - Assets/ProceduralTerrainPainter/_Demo/Layers
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -375,16 +375,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/terrain
+  - Assets/ProceduralTerrainPainter/_Demo/Layers
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\mrvna\U6 - Return to Middle Ages
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 341}
-    m_SelectedIDs: 18350100
-    m_LastClickedID: 79128
-    m_ExpandedIDs: 00000000c8300100ca300100cc300100ce300100d0300100d2300100d4300100d6300100d8300100da300100dc300100de300100e0300100e2300100e4300100e6300100e8300100ea300100ec300100ee300100f0300100f2300100f4300100f6300100f8300100fa300100fc300100fe30010000310100023101000431010006310100083101000a3101000c3101000e31010010310100123101001431010016310100183101001a3101001c3101001e31010020310100223101002431010026310100283101002a3101002c3101002e31010030310100323101003431010036310100383101003a3101003c3101003e31010040310100423101004431010046310100483101004a3101004c3101004e31010050310100523101005431010056310100583101005a3101005c3101005e31010060310100623101006431010066310100683101006a310100
+    scrollPos: {x: 0, y: 241}
+    m_SelectedIDs: 78340100
+    m_LastClickedID: 78968
+    m_ExpandedIDs: 00000000f8300100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -413,7 +413,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c8300100ca300100cc300100ce300100d0300100d2300100d4300100d6300100d8300100da300100dc300100de300100e0300100e2300100e4300100e6300100e8300100ea300100ec300100ee300100f0300100f2300100f4300100f6300100f8300100fa300100fc300100fe30010000310100023101000431010006310100083101000a3101000c3101000e31010010310100123101001431010016310100183101001a3101001c3101001e31010020310100223101002431010026310100283101002a3101002c3101002e31010030310100323101003431010036310100383101003a3101003c3101003e31010040310100423101004431010046310100483101004a3101004c3101004e31010050310100523101005431010056310100583101005a3101005c3101005e31010060310100623101006431010066310100683101006a310100
+    m_ExpandedIDs: 00000000f8300100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -933,7 +933,7 @@ MonoBehaviour:
       sizeOverridden: 0
     - dockPosition: 0
       containerId: overlay-toolbar__left
-      displayed: 0
+      displayed: 1
       id: Terrain Tools
       index: 0
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
@@ -1140,9 +1140,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 164.42752, y: 9.670154, z: 209.64998}
+    m_Target: {x: 198.05646, y: 5.9879146, z: 111.79574}
     speed: 2
-    m_Value: {x: 139.18372, y: 46.76713, z: 92.94738}
+    m_Value: {x: 198.05646, y: 5.9879146, z: 111.79574}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1188,13 +1188,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.10674203, y: -0.21304107, z: 0.023423156, w: 0.97091615}
+    m_Target: {x: -0.21479957, y: 0.33690274, z: -0.07924481, w: -0.9132789}
     speed: 2
-    m_Value: {x: -0.162178, y: 0.08425686, z: -0.013900344, w: -0.9830597}
+    m_Value: {x: -0.21479957, y: 0.33690274, z: -0.07924481, w: -0.9132789}
   m_Size:
-    m_Target: 49.16577
+    m_Target: 26.866734
     speed: 2
-    m_Value: 8.290938
+    m_Value: 26.866734
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1292,10 +1292,10 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
-    m_VSlider: 1
+    m_HSlider: 0
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1349,9 +1349,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: -1920
-    y: 646
-    width: 1380
-    height: 348
+    y: 751
+    width: 1444
+    height: 243
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
